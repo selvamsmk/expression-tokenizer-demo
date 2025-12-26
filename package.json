@@ -1,0 +1,19 @@
+{
+  "name": "expression-tokenizer-demo",
+  "version": "1.0.0",
+  "description": "Demo showcasing two approaches to tokenizing math-like expressions",
+  "main": "index.ts",
+  "scripts": {
+    "start": "bun run index.ts",
+    "dev": "bun run --watch index.ts"
+  },
+  "keywords": ["tokenizer", "parser", "expression", "typescript", "bun"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.10.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
